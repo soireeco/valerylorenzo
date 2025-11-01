@@ -7,14 +7,7 @@ body {
     text-align: center;
 }
 
-.countdown {
-    font-size: 48px;
-    background: rgba(56,66,54,0.5);
-	 color: #FFFFFF;
-  border: 2px solid #B99B69;
-  border-radius: 0px;
-  padding: 18px 36px;
-}
+
 audio {
     background: #F0F1E9;
     color: #111;
@@ -74,16 +67,16 @@ footer {
     background-color: #475444;
 }
 .text1 {
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-	font-style: normal;
-	font-size: 38px;
-	color: #201F1C;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: normal;
+    font-size: 35px;
+    color: #201F1C;
 }
 .text2 {
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
     font-style: normal;
-    font-size: 24px;
-	color: #201F1C;
+    font-size: 20px;
+    color: #201F1C;
 }
 .text3 {
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
@@ -92,11 +85,10 @@ footer {
 	color: #201F1C;
 }
 .text4 {
-	
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
     font-style: normal;
-    font-size: 29px;
-	color: #f6f5ed;
+    font-size: 20px;
+    color: #f6f5ed;
 }
 
 
@@ -118,7 +110,7 @@ footer {
 
 .slide_down:hover {
   box-shadow: inset 0 100px 0 0 #B99B69;
-	color: #475444;
+	color: #201f16;
 }
 
 .slide2 {
@@ -128,13 +120,6 @@ footer {
 }
 
 
-.timeline-list li {
-    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-    font-style: normal;
-    font-size: 29px;
-    color: #F0F1E9; /* Puedes ajustar el color si lo necesitas */
-    margin-bottom: 20px;
-}
 
 .custom-audio-player {
     display: flex;
@@ -221,7 +206,6 @@ waveform span:nth-child(2) { height: 16px; animation-delay: 0.1s; }
     align-items: center;
     justify-content: center;
     background-color: #c3bb94;
-   
 }
 
 .simply-amount {

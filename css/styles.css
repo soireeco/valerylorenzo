@@ -189,42 +189,54 @@ waveform span:nth-child(2) { height: 16px; animation-delay: 0.1s; }
 
 
 #cuenta {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;       /* Permite que los cuadros bajen a otra línea si no caben */
+  justify-content: center;
+  gap: 10px;             /* Espacio entre cuadros */
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .simply-section {
-    width: 150px;
-    height: 150px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 0;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #c3bb94;
+  flex: 1 1 120px;       /* Se adapta al espacio disponible */
+  width: auto;           /* Evita anchuras fijas */
+  height: auto;          /* Ajusta la altura automáticamente */
+  padding: 20px;
+  background-color: #c3bb94;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* Textos dentro de los cuadros */
+.simply-amount {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #201f1c;
+  margin: 0;
 }
 
-.simply-amount {
-    display: block;
-    font-size: 60px;
-    font-weight: 700;
-    text-align: center;
-    color: #201f1c;
-    margin: auto;
-    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-}
 
 .simply-word {
-    font-weight: 300;
-    font-size: 25px;
-    color: black;
-    line-height: 40px;
-    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+  font-size: 1rem;
+  color: #201f1c;
 }
+
+/* Ajuste adicional para pantallas pequeñas */
+@media (max-width: 600px) {
+  .simply-section {
+    flex: 1 1 45%;       /* Dos cuadros por fila en móviles */
+    padding: 15px;
+  }
+
+	  .simply-amount {
+    font-size: 2rem;
+  }
+ .simply-word {
+    font-size: 0.9rem;
+  }
+
 
 
 .cuenta {

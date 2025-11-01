@@ -1,21 +1,12 @@
 body {
     margin: 0;
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-    background-color: #111;
+    background-color: #201f1c;
     color: #F0F1E9;
     font-size: 18px;
     text-align: center;
 }
-header.hero {
-    background-image: url('../imagenes/headerprueba44.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 762px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .countdown {
     font-size: 48px;
     background: rgba(56,66,54,0.5);
@@ -85,13 +76,13 @@ footer {
 .text1 {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	font-style: normal;
-	font-size: 42px;
+	font-size: 38px;
 	color: #201F1C;
 }
 .text2 {
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
     font-style: normal;
-    font-size: 29px;
+    font-size: 24px;
 	color: #201F1C;
 }
 .text3 {
@@ -113,10 +104,10 @@ footer {
   color: #201f1c;
   border: 1px solid #201f1c;
   border-radius: 10px;
-  padding: 18px 36px;
+  padding: 10px 24px;
   display: inline-block;
   font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 1px;
   cursor: pointer;
   box-shadow: inset 0 0 0 0 #A3BFA8;

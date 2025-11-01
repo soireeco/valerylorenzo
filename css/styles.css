@@ -231,6 +231,11 @@ waveform span:nth-child(2) { height: 16px; animation-delay: 0.1s; }
     color: #E17072;
     margin-top: 51px;
     padding-bottom: 60px;
+	 width: 100%;          /* Ocupa todo el ancho disponible */
+  max-width: 600px;     /* Máximo ancho en pantallas grandes */
+  margin: 0 auto;       /* Centra el div */
+  padding: 20px;
+  box-sizing: border-box;
 }
 .locacion {
 	background-color: #d7d1b7;

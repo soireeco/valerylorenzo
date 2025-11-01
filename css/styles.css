@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
@@ -7,83 +8,112 @@ body {
     text-align: center;
 }
 
-
 audio {
     background: #F0F1E9;
     color: #111;
     padding: 10px;
     border-radius: 10px;
 }
+
 section {
     padding: 40px 20px;
-	
 }
+
 section img {
     max-width: 100%;
     height: auto;
-  
 }
+
 .timeline-list {
     list-style: none;
     padding: 0;
 }
+
 .timeline-list li {
     margin: 20px 0;
 }
+
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: #333;
+    background-color: #475444;
     color: #F0F1E9;
     padding: 10px;
     font-size: 14px;
 }
 
-
+/* --------------------- Secciones --------------------- */
 .intro {
     background-color: #F0F1E9;
     color: #111;
 }
+
 .ceremonia {
     background-color: #475444;
 }
+
 .dresscode {
     background-color: #E7E9DB;
     color: #111;
 }
+
 .timeline {
     background-color: #475444;
 }
+
 .regalos {
     background-color: #E7E9DB;
     color: #111;
 }
+
 .rsvp {
     background-color: #DEE0CD;
     color: #111;
 }
-footer {
-    background-color: #475444;
+
+.introintro {
+    background-color:#201f1d;
 }
+
+.locacion {
+    background-color: #d7d1b7;
+}
+
+.color {
+    background-color: #f6f5ed;
+}
+
+.colorc {
+    background-color: #d7d1b7;
+}
+
+.colorg {
+    background-color: #F6F5ED;
+}
+
+/* --------------------- Tipografía --------------------- */
 .text1 {
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
     font-style: normal;
     font-size: 35px;
     color: #201F1C;
 }
+
 .text2 {
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
     font-style: normal;
     font-size: 20px;
     color: #201F1C;
 }
+
 .text3 {
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
     font-style: normal;
     font-size: 29px;
-	color: #201F1C;
+    color: #201F1C;
 }
+
 .text4 {
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
     font-style: normal;
@@ -91,36 +121,36 @@ footer {
     color: #f6f5ed;
 }
 
+.text5 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
+/* --------------------- Botones --------------------- */
 .button_slide {
-  color: #201f1c;
-  border: 1px solid #201f1c;
-  border-radius: 10px;
-  padding: 10px 24px;
-  display: inline-block;
-  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-  font-size: 14px;
-  letter-spacing: 1px;
-  cursor: pointer;
-  box-shadow: inset 0 0 0 0 #A3BFA8;
-  -webkit-transition: ease-out 0.4s;
-  -moz-transition: ease-out 0.4s;
-  transition: ease-out 0.4s;
+    color: #201f1c;
+    border: 1px solid #201f1c;
+    border-radius: 10px;
+    padding: 10px 24px;
+    display: inline-block;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #A3BFA8;
+    transition: ease-out 0.4s;
 }
 
 .slide_down:hover {
-  box-shadow: inset 0 100px 0 0 #B99B69;
-	color: #201f16;
+    box-shadow: inset 0 100px 0 0 #B99B69;
+    color: #201f16;
 }
 
 .slide2 {
-	color: #475444;
-	  background: transparent !important;
-	
+    color: #475444;
+    background: transparent !important;
 }
 
-
-
+/* --------------------- Audio Personalizado --------------------- */
 .custom-audio-player {
     display: flex;
     align-items: center;
@@ -158,7 +188,7 @@ footer {
 }
 
 .waveform span:nth-child(1) { height: 10px; animation-delay: 0s; }
-waveform span:nth-child(2) { height: 16px; animation-delay: 0.1s; }
+.waveform span:nth-child(2) { height: 16px; animation-delay: 0.1s; }
 .waveform span:nth-child(3) { height: 22px; animation-delay: 0.2s; }
 .waveform span:nth-child(4) { height: 30px; animation-delay: 0.3s; }
 .waveform span:nth-child(5) { height: 36px; animation-delay: 0.4s; }
@@ -169,96 +199,88 @@ waveform span:nth-child(2) { height: 16px; animation-delay: 0.1s; }
 .waveform span:nth-child(10) { height: 16px; animation-delay: 0.9s; }
 
 @keyframes pulse {
-    0%, 100% {
-        transform: scaleY(1);
-    }
-    50% {
-        transform: scaleY(1.8);
-    }
+    0%, 100% { transform: scaleY(1); }
+    50% { transform: scaleY(1.8); }
 }
 
 .audio-player audio {
     display: none;
 }
-.text5 {
-    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.introintro {
-	background-color:#201f1d;
-}
 
+/* --------------------- Countdown / Simply Countdown --------------------- */
+.cuenta {
+    color: #E17072;
+    margin: 51px auto 60px;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
 
 #cuenta {
-  display: flex;
-  justify-content: center;     /* Centra horizontalmente */
-  align-items: stretch;        /* Que todos tengan igual altura */
-  gap: 8px;                    /* Espacio entre cuadros */
-  padding: 10px 5%;
-  box-sizing: border-box;
-  flex-wrap: nowrap;           /* Mantiene una sola línea */
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+    padding: 10px 5%;
+    box-sizing: border-box;
+    flex-wrap: nowrap; /* una sola fila */
 }
 
 .simply-section {
-  flex: 1 1 calc(25% - 8px);   /* Cada cuadro ocupa el 25% del contenedor */
-  background-color: #c3bb94;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  box-sizing: border-box;
+    flex: 1 1 calc(25% - 10px);
+    background-color: #c3bb94;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; /* número arriba, palabra abajo */
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 .simply-amount {
-  font-size: clamp(1.2rem, 4vw, 2rem);  /* Tamaño fluido que se adapta al ancho */
-  font-weight: 700;
-  color: #201f1c;
-  margin: 0;
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
+    font-weight: 700;
+    color: #201f1c;
+    margin: 0;
+    line-height: 1.1;
 }
-
 
 .simply-word {
-  font-size: clamp(0.7rem, 2vw, 1rem);
-  color: #201f1c;
-  margin: 0;
+    font-size: clamp(0.8rem, 2.5vw, 1rem);
+    color: #201f1c;
+    margin-top: 4px;
+    line-height: 1.1;
 }
 
-/* --- Ajuste fino para pantallas pequeñas --- */
+/* --------------------- Responsive --------------------- */
 @media (max-width: 500px) {
-  #cuenta {
-    gap: 6px;
-    padding: 10px 2%;
-  }
-  .simply-section {
-    padding: 8px;
-  }
+    #cuenta {
+        gap: 6px;
+        padding: 10px 3%;
+    }
 
+    .simply-section {
+        padding: 10px;
+    }
+
+    .simply-amount {
+        font-size: clamp(1.4rem, 6vw, 2rem);
+    }
+
+    .simply-word {
+        font-size: clamp(0.7rem, 3vw, 0.9rem);
+    }
 }
 
-.cuenta {
-  color: #E17072;
-  margin-top: 51px;
-  padding-bottom: 60px;
+@media (max-width: 400px) {
+    #cuenta {
+        flex-wrap: wrap;
+    }
 
-  width: 100%;         /* Ocupa todo el ancho disponible */
-  max-width: 800px;    /* 🔹 un poco más ancho que antes (600px era muy justo en móvil) */
-  margin: 0 auto;      /* Centra el div */
-  padding: 20px;
-  box-sizing: border-box;
-  text-align: center;  /* Asegura que el texto dentro esté centrado */
-}
-	
-.locacion {
-	background-color: #d7d1b7;
-}
-.color {
-	background-color: #f6f5ed;
-}
-.colorc {
-	background-color: #d7d1b7;
-}
-.colorg {
-	
-	background-color: #F6F5ED;
+    .simply-section {
+        flex: 1 1 45%; /* dos por fila en móvil muy pequeño */
+    }
 }

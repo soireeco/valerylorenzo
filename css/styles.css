@@ -255,33 +255,4 @@ footer {
     line-height: 1.1;
 }
 
-/* --------------------- Responsive --------------------- */
-@media (max-width: 500px) {
-    #cuenta {
-        gap: 6px;
-        padding: 10px 3%;
-    }
-
-    .simply-section {
-        padding: 10px;
-    }
-
-    .simply-amount {
-        font-size: clamp(1.4rem, 6vw, 2rem);
-    }
-
-    .simply-word {
-        font-size: clamp(0.7rem, 3vw, 0.9rem);
-    }
-}
-
-@media (max-width: 400px) {
-    #cuenta {
-        flex-wrap: wrap;
-    }
-
-    .simply-section {
-        flex: 1 1 45%; /* dos por fila en móvil muy pequeño */
-    }
-}
 

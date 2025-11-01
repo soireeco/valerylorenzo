@@ -232,8 +232,10 @@ waveform span:nth-child(2) { height: 16px; animation-delay: 0.1s; }
 
 .cuenta {
     color: #E17072;
-    margin-top: 51px;
-    padding-bottom: 60px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 .locacion {
 	background-color: #d7d1b7;

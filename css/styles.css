@@ -190,28 +190,28 @@ waveform span:nth-child(2) { height: 16px; animation-delay: 0.1s; }
 
 #cuenta {
   display: flex;
-  flex-wrap: wrap;       /* Permite que los cuadros bajen a otra línea si no caben */
-  justify-content: center;
-  gap: 10px;             /* Espacio entre cuadros */
-  padding: 20px;
+  justify-content: center;     /* Centra horizontalmente */
+  align-items: stretch;        /* Que todos tengan igual altura */
+  gap: 8px;                    /* Espacio entre cuadros */
+  padding: 10px 5%;
   box-sizing: border-box;
+  flex-wrap: nowrap;           /* Mantiene una sola línea */
 }
 
 .simply-section {
-  flex: 1 1 120px;       /* Se adapta al espacio disponible */
-  width: auto;           /* Evita anchuras fijas */
-  height: auto;          /* Ajusta la altura automáticamente */
-  padding: 20px;
+  flex: 1 1 calc(25% - 8px);   /* Cada cuadro ocupa el 25% del contenedor */
   background-color: #c3bb94;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
 }
-/* Textos dentro de los cuadros */
+
 .simply-amount {
-  font-size: 2.5rem;
+  font-size: clamp(1.2rem, 4vw, 2rem);  /* Tamaño fluido que se adapta al ancho */
   font-weight: 700;
   color: #201f1c;
   margin: 0;
@@ -219,36 +219,36 @@ waveform span:nth-child(2) { height: 16px; animation-delay: 0.1s; }
 
 
 .simply-word {
-  font-size: 1rem;
+  font-size: clamp(0.7rem, 2vw, 1rem);
   color: #201f1c;
+  margin: 0;
 }
 
-/* Ajuste adicional para pantallas pequeñas */
-@media (max-width: 600px) {
+/* --- Ajuste fino para pantallas pequeñas --- */
+@media (max-width: 500px) {
+  #cuenta {
+    gap: 6px;
+    padding: 10px 2%;
+  }
   .simply-section {
-    flex: 1 1 45%;       /* Dos cuadros por fila en móviles */
-    padding: 15px;
+    padding: 8px;
   }
 
-	  .simply-amount {
-    font-size: 2rem;
-  }
- .simply-word {
-    font-size: 0.9rem;
-  }
-
-
+}
 
 .cuenta {
-    color: #E17072;
-    margin-top: 51px;
-    padding-bottom: 60px;
-	 width: 100%;          /* Ocupa todo el ancho disponible */
-  max-width: 600px;     /* Máximo ancho en pantallas grandes */
-  margin: 0 auto;       /* Centra el div */
+  color: #E17072;
+  margin-top: 51px;
+  padding-bottom: 60px;
+
+  width: 100%;         /* Ocupa todo el ancho disponible */
+  max-width: 800px;    /* 🔹 un poco más ancho que antes (600px era muy justo en móvil) */
+  margin: 0 auto;      /* Centra el div */
   padding: 20px;
   box-sizing: border-box;
+  text-align: center;  /* Asegura que el texto dentro esté centrado */
 }
+	
 .locacion {
 	background-color: #d7d1b7;
 }

@@ -193,6 +193,7 @@ waveform span:nth-child(2) { height: 16px; animation-delay: 0.1s; }
     justify-content: center;
     margin-bottom: 20px;
     padding-top: 20px;
+	width: 970px;
 }
 
 .simply-section {
@@ -236,6 +237,7 @@ waveform span:nth-child(2) { height: 16px; animation-delay: 0.1s; }
     padding-bottom: 50px;
 	padding-left: 30px;
 	padding-right: 30px;
+	width: 970px;
 }
 .locacion {
 	background-color: #d7d1b7;

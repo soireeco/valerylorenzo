@@ -261,6 +261,7 @@ waveform span:nth-child(2) { height: 16px; animation-delay: 0.1s; }
 
 .cuadro{
   height: 60vh;
+		background-color: #201f1c;
 }
 
 @media (max-width: 768px) {
